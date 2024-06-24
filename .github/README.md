@@ -52,3 +52,102 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+Setting Up Your Developer Environment
+
+Download Windows 11 from the Microsoft Windows 11 download page.
+
+Create a bootable USB drive using the Windows Media Creation Tool.
+
+Restart your computer and boot from the USB drive.
+
+Follow on-screen instructions to install Windows 11.
+
+Complete initial setup by configuring region, keyboard layout, and Microsoft account.
+
+Download Visual Studio Code from the official website.
+
+Run the installer and follow installation prompts.
+
+Launch Visual Studio Code and configure basic settings like theme and font size.
+
+Download Git from the official website.
+
+Install Git and open Git Bash.
+
+Configure Git with your user name and email:
+
+bash
+Copy code
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Create a GitHub account at GitHub.
+
+Create a new repository on GitHub.
+
+Clone the repository to your local machine:
+
+bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+Initialize a Git repository and make your first commit:
+
+bash
+Copy code
+cd your-repository
+echo "# Your Project" > README.md
+git add README.md
+git commit -m "Initial commit"
+git push origin main
+Download Python from the official website.
+
+Run the installer and check the option to "Add Python to PATH".
+
+Verify installation:
+
+bash
+Copy code
+python --version
+Verify pip installation (pip is installed with Python by default):
+
+bash
+Copy code
+pip --version
+Update pip to the latest version:
+
+bash
+Copy code
+python -m pip install --upgrade pip
+Download MySQL Installer for Windows from here.
+
+Run the installer and choose the "Developer Default" setup.
+
+Configure MySQL server and create a root password.
+
+Complete the installation and verify MySQL is running.
+
+Download and install Docker Desktop from here (optional).
+
+Follow installation prompts and start Docker Desktop.
+
+Verify installation:
+
+bash
+Copy code
+docker --version
+Open Visual Studio Code and go to Extensions view (Ctrl+Shift+X).
+
+Search for and install the following extensions:
+
+Python
+GitLens
+Prettier - Code formatter
+ESLint
+Challenges and Solutions
+Challenge: Git not recognized in the command prompt.
+
+Solution: Added Git to system PATH manually by modifying environment variables.
+Challenge: MySQL service failed to start after installation.
+
+Solution: Re-ran the configuration wizard and ensured correct network settings were used.
+Reflection
+Setting up the developer environment was a comprehensive process involving multiple installations and configurations. Main challenges included ensuring all tools were correctly configured and troubleshooting issues like Git integration and MySQL service startup. Persistence and careful following of instructions were key to overcoming these challenges.
